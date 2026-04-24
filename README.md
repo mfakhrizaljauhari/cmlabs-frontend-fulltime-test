@@ -1,6 +1,8 @@
 # Culina - Meal Discovery App 🍳
 > **Frontend Developer Fulltime Test Assessment**
 
+🚀 **Live Demo:** [https://cmlabs-frontend-fulltime-test-coral.vercel.app/](https://cmlabs-frontend-fulltime-test-coral.vercel.app/)
+
 Culina is a modern, premium, and fully responsive web application that allows users to explore fresh ingredients, discover curated recipes, and watch video tutorials to elevate their cooking experience. It fetches live data from the public **MealDB API**.
 
 This project was built to demonstrate proficiency in modern frontend development, advanced UI/UX implementation, robust state management, and clean architecture.
