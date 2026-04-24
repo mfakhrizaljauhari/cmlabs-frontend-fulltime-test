@@ -37,7 +37,7 @@ export const IngredientList: React.FC = () => {
   };
 
   return (
-    <div className="max-w-[1200px] mx-auto px-margin-mobile lg:px-margin-desktop py-stack-lg lg:py-section-gap w-full">
+    <div className="max-w-[1200px] mx-auto px-margin-mobile lg:px-margin-desktop pt-stack-lg pb-32 lg:pb-section-gap lg:pt-section-gap w-full">
       {/* Header & Search */}
       <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-section-gap gap-stack-md">
         <div className="max-w-xl">
@@ -101,7 +101,7 @@ export const IngredientList: React.FC = () => {
 
             {/* Pagination Controls */}
             {totalPages > 1 && (
-              <div className="flex items-center justify-center gap-4 py-4">
+              <div className="flex items-center justify-center gap-4 py-4 mb-24 lg:mb-0">
                 <button
                   onClick={handlePrevPage}
                   disabled={currentPage === 1}
